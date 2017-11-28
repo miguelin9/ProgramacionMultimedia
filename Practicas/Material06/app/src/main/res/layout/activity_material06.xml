@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="es.vcarmen.material06.Material06"
+    android:background="#76a1ff">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:background="#cccccc"
+        android:minHeight="?attr/actionBarSize"
+        app:tabMode="fixed"
+        app:tabGravity="fill"/>
+
+    <Button
+        android:id="@+id/btnEliminarTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUITAR TABS"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/btnAñadirTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AÑADIR TABS"
+        android:layout_above="@id/btnEliminarTab"/>
+
+</RelativeLayout>

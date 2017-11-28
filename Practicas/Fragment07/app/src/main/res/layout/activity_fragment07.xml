@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.vcarmen.fragment07.Fragment07"
+    android:orientation="horizontal"
+    android:background="#d9e1a5">
+
+    <fragment
+        android:id="@+id/fragmento1"
+        android:name="es.vcarmen.fragment07.Fragmento1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <fragment
+        android:id="@+id/fragmento2"
+        android:name="es.vcarmen.fragment07.Fragmento2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

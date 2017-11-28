@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68ebff"
+    android:orientation="vertical"
+    tools:context="es.vcarmen.material08.Material08">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            card_view:cardBackgroundColor="#daa986"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cuadro" />
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#5068ebff"
+                android:text="Cuadro 1"
+                android:textAlignment="center"
+                android:textColor="#060679"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            card_view:cardBackgroundColor="#daa986"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cuadro" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#5068ebff"
+                android:text="Cuadro 2"
+                android:textAlignment="center"
+                android:textColor="#060679"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            card_view:cardBackgroundColor="#daa986"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cuadro" />
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#5068ebff"
+                android:text="Cuadro 3"
+                android:textAlignment="center"
+                android:textColor="#060679"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            card_view:cardBackgroundColor="#daa986"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cuadro" />
+
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#5068ebff"
+                android:text="Cuadro 4"
+                android:textAlignment="center"
+                android:textColor="#060679"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
