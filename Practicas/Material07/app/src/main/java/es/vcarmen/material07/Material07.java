@@ -2,9 +2,6 @@ package es.vcarmen.material07;
 
 
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -76,3 +73,6 @@ public class Material07 extends AppCompatActivity {
     }
 }
 // Falta el Practicando lo aprendido
+//WebView primero = (WebView) getActivity().findViewById(R.id.wvprimero);
+//primero.loadUrl("http://www.google.es");
+//primero.setWebViewClient(new WebViewClient());

@@ -13,3 +13,4 @@ public class Material08 extends AppCompatActivity {
 }
 
 // Finalizado
+// estan en distintos layout

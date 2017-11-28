@@ -33,7 +33,7 @@ public class Material05 extends AppCompatActivity {
 
     private void mensaje(int resid) {
 
-        Toast.makeText(this, getText(resid), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, getText(resid), Toast.LENGTH_SHORT).show();
         Snackbar.make(findViewById(R.id.coordinatorLayout), getText(resid), Snackbar.LENGTH_SHORT).show();
 
     }
@@ -63,3 +63,4 @@ public class Material05 extends AppCompatActivity {
 
     }
 }
+//Finalizada

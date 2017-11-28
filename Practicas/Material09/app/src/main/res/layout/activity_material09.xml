@@ -45,23 +45,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:onClick="tocado"
-                android:layout_marginVertical="10dp">
+                android:onClick="tocado">
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="Detalle"/>
+                    android:text="Detalle"
+                    android:textSize="20sp"/>
 
                 <ImageView
                     android:id="@+id/imagen2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@mipmap/mas"
-                    android:background="@android:color/transparent"
-                    android:adjustViewBounds="true"/>
+                    android:background="@android:color/transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contenido"
+                    android:textSize="16dp"
+                    android:textColor="#1a0039"/>
 
             </LinearLayout>
 
