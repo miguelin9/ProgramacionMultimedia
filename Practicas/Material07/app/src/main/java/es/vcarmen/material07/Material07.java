@@ -72,7 +72,4 @@ public class Material07 extends AppCompatActivity {
 
     }
 }
-// Falta el Practicando lo aprendido
-//WebView primero = (WebView) getActivity().findViewById(R.id.wvprimero);
-//primero.loadUrl("http://www.google.es");
-//primero.setWebViewClient(new WebViewClient());
+// Finalizada

@@ -5,6 +5,11 @@
     android:layout_height="match_parent"
     android:background="#cd9bff">
 
+    <WebView
+        android:id="@+id/wvTercero"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+   <!--
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,5 +17,5 @@
         android:textSize="30sp"
         android:layout_gravity="center"
         android:gravity="center"/>
-
+-->
 </LinearLayout>

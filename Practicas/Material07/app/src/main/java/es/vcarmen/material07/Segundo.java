@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 /**
  * Created by matinal on 17/11/17.
@@ -24,7 +26,13 @@ public class Segundo extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.segundo, container, false);
+        View vista = inflater.inflate(R.layout.segundo, container, false);
+        WebView navegador = vista.findViewById(R.id.wvSegundo);
+        navegador.loadUrl("https://www.youtube.com/");
+        navegador.setWebViewClient(new WebViewClient());
+        navegador.getSettings().setJavaScriptEnabled(true);
+
+        return vista;
     }
 
 }
