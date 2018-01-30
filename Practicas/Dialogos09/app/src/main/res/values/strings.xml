@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dialogos09</string>
+    <string-array name="equipos">
+        <item>ATLÉTICO DE MADRID</item>
+        <item>REAL MADRID</item>
+        <item>FUTBOLCLUB BARCELONA</item>
+        <item>VALENCIA C.F</item>
+        <item>AT. BILBAO</item>
+    </string-array>
+    <string-array name="competición">
+        <item>LIGA DE CAMPEONES</item>
+        <item>EUROPA LEAGUE</item>
+        <item>PRIMERA DIVISIÓN</item>
+        <item>COPA DEL REY</item>
+    </string-array>
+    <string-array name="retransmitido">
+        <item>TELEVISIÓN EN ABIERTO</item><item>TELEVISIÓN DE PAGO</item>
+        <item>NO RETRANSMITIDO</item>
+    </string-array>
+</resources>

@@ -22,7 +22,9 @@ public class Sensores01 extends AppCompatActivity {
         SensorManager sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         List<Sensor> listaSensores = sensorManager.getSensorList(Sensor.TYPE_ALL);
         for (Sensor sensor : listaSensores){
-            listado.append(sensor.getName() + "\n");
+            listado.append("Nombre:" + sensor.getName() + "\n");
+            listado.append("Tipo:" + sensor.getStringType() + "\n");
+            listado.append("\n");
         }
 
     }

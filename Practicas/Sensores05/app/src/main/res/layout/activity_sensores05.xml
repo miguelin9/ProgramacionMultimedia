@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.vcarmen.sensores05.Sensores05"
+    android:background="#ffe9b8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE ORIENTACIÓN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#5e5e5e"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AZIMUT"
+        android:textStyle="bold|italic"
+        android:textColor="#52a3ff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvAzimut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="azimut"
+        android:textStyle="bold"
+        android:textSize="19sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#5e5e5e"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERTICALIDAD"
+        android:textStyle="bold|italic"
+        android:textColor="#52a3ff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvVerticalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="verticalidad"
+        android:textStyle="bold"
+        android:textSize="19sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#5e5e5e"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INCLINACIÓN LATERAL"
+        android:textStyle="bold|italic"
+        android:textColor="#52a3ff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvInclinacionLateral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lateralidad"
+        android:textStyle="bold"
+        android:textSize="19sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#5e5e5e"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORIENTACIÓN"
+        android:textStyle="bold|italic"
+        android:textColor="#52a3ff"
+        android:textSize="20sp"/>\
+
+    <TextView
+        android:id="@+id/tvOrientacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="orientacion"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#5e5e5e"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NÚMERO DE LECTURAS"
+        android:textStyle="bold|italic"
+        android:textColor="#52a3ff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvLecturas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cero"
+        android:textStyle="bold"
+        android:textSize="19sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#5e5e5e"/>
+
+</LinearLayout>
