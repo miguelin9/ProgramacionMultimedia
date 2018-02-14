@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.miguel.intent07"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="10"></uses-sdk>
+    <application android:label="PRÁCTICAS CON FILTROS">
+        <activity
+            android:name=".Intent07"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hora">
+            <intent-filter>
+                <action android:name="es.vcarmen.intent.action.showtime"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fecha"
+            android:label="FECHA SIMPLE">
+            <intent-filter>
+                <action android:name="es.vcarmen.intent.action.showdate"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fecha2"
+            android:label="FECHA AMPLIADA">
+            <intent-filter>
+                <action android:name="es.vcarmen.intent.action.showdate"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
