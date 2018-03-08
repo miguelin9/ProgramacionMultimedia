@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item android:duration="2000" android:drawable="@drawable/boccaccino"></item>
+    <item android:duration="2000" android:drawable="@drawable/boticelli"></item>
+    <item android:duration="2000" android:drawable="@drawable/durero"></item>
+    <item android:duration="2000" android:drawable="@drawable/leonardo"></item>
+    <item android:duration="2000" android:drawable="@drawable/miguelangel"></item>
+    <item android:duration="2000" android:drawable="@drawable/rafael"></item>
+    <item android:duration="2000" android:drawable="@drawable/tintoreto"></item>
+
+</animation-list>

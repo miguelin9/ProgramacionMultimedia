@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="es.miguel.dibujo02.Dibujo02">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="VISTA PERSONALIZADA INDEPENDIENTE"
+        android:textColor="#ff000d"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <es.miguel.dibujo02.Grafico
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left" />
+
+    <es.miguel.dibujo02.Grafico
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right" />
+
+    <es.miguel.dibujo02.Grafico
+        android:layout_width="70dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"/>
+
+    <es.miguel.dibujo02.Grafico
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"/>
+
+    <es.miguel.dibujo02.Grafico
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right"/>
+
+    <es.miguel.dibujo02.Grafico
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textColor="#ff0c93b4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0c93b4"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SURFACEVIEW CON OVERLAYS"
+            android:textStyle="bold"
+            android:textColor="#ff84000b"
+            android:textSize="21dp"
+            android:layout_margin="15dp"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2sp"
+            android:background="#000000"
+            android:layout_marginBottom="10dp"></View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#ff0c93b4">
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:background="#ff0c93b4" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1sp"
+            android:background="#000000"></View>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SURFACEVIEW DINAMICAS"
+            android:textColor="#ff84000b"
+            android:textSize="21dp"
+            android:layout_margin="15dp"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="TOMAR FOTOGRAFIA"
+            android:onClick="foto"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1sp"
+            android:background="#000000"
+            android:layout_marginTop="15dp"></View>
+    </LinearLayout>
+</LinearLayout>
+

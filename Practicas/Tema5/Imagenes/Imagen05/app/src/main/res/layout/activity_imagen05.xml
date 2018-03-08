@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.vcarmen.imagen05.Imagen05">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TRABAJANDO CON BITMAP"
+        android:textColor="#001eff" />
+
+    <TextView
+        android:id="@+id/tv_tiempo_procesado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tiempo de procesado" />
+
+    <Button
+        android:id="@+id/btn_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reescalar"/>
+
+
+    <ImageView
+        android:id="@+id/iv_imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/boccaccino"/>
+
+</LinearLayout>
